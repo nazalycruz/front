@@ -636,3 +636,79 @@ i {
 .credits {
   color: #999;
 }
+
+.fotos{
+  display: block;
+  margin: auto;
+}
+
+.fotosh{
+  color:black;
+  font: bold;
+}
+
+/*menu*/
+ol, ul {
+  list-style: none;
+}
+
+a {
+  -moz-transition: color 0.25s ease, border-bottom-color 0.25s ease;
+  -webkit-transition: color 0.25s ease, border-bottom-color 0.25s ease;
+  -ms-transition: color 0.25s ease, border-bottom-color 0.25s ease;
+  transition: color 0.25s ease, border-bottom-color 0.25s ease;
+  border-bottom: dotted 1px;
+  color: inherit;
+  text-decoration: none;
+}
+
+  a:hover {
+			border-bottom-color: transparent;
+			color: #C5BEBE;
+		}
+
+  
+    ol {
+      list-style: decimal;
+      margin: 0 0 1.25em 0;
+      padding-left: 1.25em;
+    }
+  
+      ol li {
+        padding-left: 0.25em;
+      }
+  
+    ul {
+      list-style: disc;
+      margin: 0 0 1.25em 0;
+      padding-left: 1em;
+    }
+  
+      ul li {
+        padding-left: 0.5em;
+      }
+  
+      ul.alt {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      #main {
+        -moz-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+        -webkit-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+        -ms-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+        transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
+        -webkit-overflow-scrolling: touch;
+        position: fixed;
+        top: 0;
+        width: 22.5em;
+        height: 100%;
+        background: #fff;
+        outline: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: right;
+        visibility: visible;
+        z-index: 10000;
+        right: 0;
+      }
